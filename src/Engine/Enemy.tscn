@@ -45,7 +45,7 @@ tracks/0/keys = {
 "values": [ Vector2( -26.0377, 0 ), Vector2( 72.8241, 0 ), Vector2( 0, 0 ) ]
 }
 
-[sub_resource type="Animation" id=7]
+[sub_resource type="Animation" id=4]
 resource_name = "damage"
 length = 0.5
 tracks/0/type = "value"
@@ -143,7 +143,6 @@ __meta__ = {
 [node name="Animation" type="AnimationPlayer" parent="."]
 anims/SETUP = SubResource( 2 )
 anims/attack = SubResource( 3 )
-anims/damage = SubResource( 7 )
+anims/damage = SubResource( 4 )
 anims/idle = SubResource( 5 )
 anims/prepare = SubResource( 6 )
-

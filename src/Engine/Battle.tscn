@@ -17,5 +17,4 @@ position = Vector2( 280, 280 )
 [node name="Enemy" parent="." instance=ExtResource( 3 )]
 position = Vector2( 772.879, 251.968 )
 scale = Vector2( -1.5, 1.5 )
-
 [connection signal="attack_finished" from="Player" to="." method="_on_player_attack_finished"]

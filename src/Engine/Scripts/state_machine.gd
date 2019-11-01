@@ -28,6 +28,6 @@ func _on_animation_finished(anim_name):
 
 func _change_state(next_state_name, params = null):
    current_state.exit()
-   print(next_state_name)
+   print(self, next_state_name)
    current_state = state_map[next_state_name]
    current_state.enter(params)
